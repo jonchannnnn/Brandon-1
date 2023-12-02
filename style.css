@@ -36,7 +36,7 @@ img: hover {
 
 /* DEFINE a ID by using # / ID just one single element */
 /* #ID{ */
-h3{
+#ID{
 	border: 10px solid lemonchiffon;
 	padding:20px;
 	background-color: blanchedalmond;
@@ -51,7 +51,7 @@ h3{
 
 /* DEFINE a Class by using . / Multiple elements can be in the same class */
 /* .CLASS{ */
-h4{
+.CLASS{
 	padding: 20px;
 	background-color: blanchedalmond;
 	border-top: 10px solid blue;
