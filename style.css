@@ -1,8 +1,11 @@
 /*main-body*/
 body{
 	background-color: skyblue;
-(2)(limited choice)/*	font-family: courier;*/
-(so we can choose from google fonts and embed them here)/*	google fonts, slide 20*/
+/*	font-family: courier, monospace;*/
+	font-family: 'Smooch Sans', sans-serif;
+	letter-spacing: 5px;
+	padding:0;
+	margin:0;
 }
 
 /*paragraph*/
@@ -26,15 +29,52 @@ img{
 	object-fit: cover;
 }
 
-(1)/*img:hover {
+img: hover {
 	height: 500px;
 	transition: 1s;
-}*/
+}
 
-(3) letter-spacing / text-decoration
+/* DEFINE a ID by using # / ID just one single element */
+#ID{
+	border: 10px solid lemonchiffon;
+	padding:20px;
+	background-color: blanchedalmond;
+/*	Overline / Underline / Line-through */
+/*	dotted / dashed / wavy */
+/*	text-decoration: dotted underline;*/
+	text-decoration: wavy line-through;
+	text-decoration-color: sandybrown;
+	text-decoration-thickness: 5px;
+/*	text-decoration: underline overline dotted #FF3028;*/
+}
 
-(4) ID & Class Slide 38
+/* DEFINE a Class by using . / Multiple elements can be in the same class */
+.CLASS{
+	padding: 20px;
+	background-color: blanchedalmond;
+	border-top: 10px solid blue;
+	border-left: 10px dashed red;
+	border-right: 10px dotted green;
+	border-bottom: 10px solid snow;
+	border-radius: 50px;
+/*	border-radius: 100%;*/
+	text-decoration: wavy overline #FF3028;
+}
 
-(5) CSS Box Model Slide 43 onwards
+ol{
+	/*	lower-alpha / upper-roman */
+	list-style-type: lower-alpha;
+	font-size: 20px;
+	color: aquamarine;
+	background-color: black;
+	margin: 20px;
+}
 
-(Z)/* embed youtube*/
+ul{
+	/*	square / circle */
+	list-style-type: square;
+	font-size: 20px;
+	color: aquamarine;
+	background-color: black;
+	margin: 20px;
+}
