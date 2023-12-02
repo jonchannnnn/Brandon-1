@@ -29,7 +29,7 @@ img{
 	object-fit: cover;
 }
 
-img:hover {
+img:hover{
 	height: 500px;
 	transition: 1s;
 }
